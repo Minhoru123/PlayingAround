@@ -40,6 +40,11 @@
     .weather-container {
       text-align: center;
     }
+
+    .weather-container1 {
+      text-align: center;
+      align-items: center;
+    }
 </style>
 </head>
 <body>
@@ -50,14 +55,14 @@
     </div>
 
     <div style="padding-left:16px">
-        <p>Random stuff created by CHAT GPT and me</p>
     </div>
 
-    <h1>Weather Application</h1>
-    <input type="text" id="locationInput" placeholder="Enter a location">
-    <button onclick="getWeather()">Get Weather</button>
-    <div class="weather-container" id="weatherContainer"></div>
-    
+    <div class="weather-container1">
+        <h1>Weather Application</h1>
+        <input type="text" id="locationInput" placeholder="Enter a location">
+        <button onclick="getWeather()">Get Weather</button>
+        <div class="weather-container" id="weatherContainer"></div>
+        </div>
     <script src="/js/weatherScript.js"></script>
 
 </body>
